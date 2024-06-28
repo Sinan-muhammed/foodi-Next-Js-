@@ -13,7 +13,7 @@ const Navbar = () => {
             </div>
             <div className=' gap-[51px] text-[17px] font-semibold hidden md:flex'>
           
-                 <Link href='' className='hover:text-[#39DB4A]'>Home</Link>
+                 <Link href='/' className='hover:text-[#39DB4A]'>Home</Link>
                  <Link href='' className='hover:text-[#39DB4A]'>Menu</Link>
                  <Link href='' className='hover:text-[#39DB4A]'>Services</Link>
                  <Link href='' className='hover:text-[#39DB4A]'>Offers</Link>
