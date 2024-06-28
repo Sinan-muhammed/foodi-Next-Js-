@@ -22,7 +22,7 @@ const Navbar = () => {
                 <img className='w-[29px] h-[29px]' src='search.png' alt="search" />
                 <img className='w-[25px] h-[25px]' src="cart.png" alt="" />
                 <button className='h-[45px] w-[170px] bg-[#39DB4A] rounded-[40px]   text-[#FFFFFF] font-semibold text-[17px] hover:bg-[#ace9afb9] hover:text-green-600'>
-                    Login
+                   <Link href='/login'>Login</Link>
                 </button>
             </div>
             <div className='flex md:hidden'>
