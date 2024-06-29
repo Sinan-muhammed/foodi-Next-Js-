@@ -3,3 +3,10 @@
 @tailwind utilities;
 
 
+body{
+    overflow-x: hidden;
+}
+
+.browse::-webkit-scrollbar{
+    display: none;
+}

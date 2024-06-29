@@ -29,7 +29,7 @@ const Menu = () => {
     </div>
         <div className={open ? 'flex flex-col h-[100vh] absolute right-[0px] top-[0] w-[250px] bg-[#39db4970] justify-center items-center tex-[13px] font-semibold gap-[24px] transition-transform duration-1000 ease-in-out translate-x-[10px]':`hidden translate-x-[0px]`}>
            {links.map((link)=>(
-            <Link href={link.url}>{link.title}</Link>
+            <Link key={link.id} href={link.url}>{link.title}</Link>
            ))}
         </div>
     </div>
