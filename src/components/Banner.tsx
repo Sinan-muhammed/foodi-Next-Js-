@@ -25,7 +25,7 @@ const Banner = () => {
               <p className="text-[14px] md:text-[18px] font-medium text-[#4A4A4A]">Where Each Plate Weaves a Story of <br/> Culinary Mastery and Passionate Craftsmanship</p>
               </div> 
               <div className="flex md:gap-[40px] gap-[20px] w-[100%]  md:items-center md:pl-[40px]">
-                <button className="h-[45px] md:h-[50px] w-[140px] md:w-[150px] bg-[#39DB4A] rounded-[40px] text-[15px] font-semibold text-white shadow-xl"><Link href='/products'>Order Now</Link></button>
+                <button className="h-[45px] md:h-[50px] w-[140px] md:w-[150px] bg-[#39DB4A] rounded-[40px] text-[15px] font-semibold text-white shadow-xl"><Link href='/product'>Order Now</Link></button>
                 <div className="flex items-center justify-center gap-[15px]">
                 <h1 className="text-[15px] font-semibold text-[#4D4D4D]">Watch Video</h1>
                 <div className="h-[50px] w-[50px] rounded-full flex justify-center items-center shadow-xl">

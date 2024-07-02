@@ -21,7 +21,7 @@ const Categories = () => {
             <h1 className='md:text-[20px] text-[17px] text-[#FF6868] font-semibold tracking-wide'>Customer Favorites</h1>
             <h1 className='md:text-[45px] text-[25px] text-black font-bold '>Popular Catagories</h1>
         </div> 
-        <div className='browse flex w-full p-[20px] md:p-[0px] gap-[30px] overflow-x-scroll  md:overflow-x-hidden'>
+        <div className='browse flex w-full pl-[40px]  pt-[20px] p-[100px] md:p-[100px] gap-[30px] overflow-x-scroll md:items-center md:justify-center  md:overflow-x-hidden'>
            {browseCart.map((cart)=>(
            <Link href='/product'> 
             <div key={cart.id} className='md:w-[326px] md:h-[326px] h-[200px] shadow-xl md:shadow-none w-[200px] bg-white drop-shadow-2xl rounded-[40px] flex flex-col border-[#fff5] items-center justify-center gap-[10px]'>

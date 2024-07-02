@@ -16,7 +16,7 @@ export default function Home() {
             <Categories/>
           </div>
           <div className="Dishes">
-            {/* <Dishes/> */}
+            <Dishes/>
           </div>
     </main>
   );

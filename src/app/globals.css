@@ -10,3 +10,7 @@ body{
 .browse::-webkit-scrollbar{
     display: none;
 }
+
+.Main-Dish::-webkit-scrollbar{
+    display: none;
+}
