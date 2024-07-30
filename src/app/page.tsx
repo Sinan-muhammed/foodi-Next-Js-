@@ -1,8 +1,8 @@
 import Banner from "@/components/Banner";
 import Categories from "@/components/Categories";
 import Dishes from "@/components/Dishes";
-
-
+import Testimonials from "@/components/Testimonials";
+import Story from '@/components/Story'
 
 export default function Home() {
 
@@ -17,6 +17,12 @@ export default function Home() {
           </div>
           <div className="Dishes">
             <Dishes/>
+          </div>
+          <div className="Test">
+            <Testimonials/>
+          </div>
+          <div className="Test">
+            <Story/>
           </div>
     </main>
   );
